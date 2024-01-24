@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Animasyonlu Resim Galerisi</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">PhotoGallery</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="istanbul.html">Istanbul</a></li>
+          <li><a href="izmir.html">Izmir</a></li>
+          <li><a href="adana.html">Adana</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="gallery">
+      <img
+        class="gallery-image"
+        src="https://images.unsplash.com/photo-1549934882-f2b6536a591f?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Resim 1"
+      />
+      <img
+        class="gallery-image"
+        src="https://images.unsplash.com/photo-1601758550782-8ea0b5d4925f?q=80&w=1820&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Resim 2"
+      />
+      <img
+        class="gallery-image"
+        src="https://images.unsplash.com/photo-1698172137543-b4c30a38684d?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Resim 3"
+      />
+      <img
+        class="gallery-image"
+        src="https://images.unsplash.com/photo-1588432534059-3e24e9933942?q=80&w=1909&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Resim 4"
+      />
+    </div>
+    <div id="overlay" class="overlay">
+      <span class="close-button" id="closeButton"> &times;</span>
+      <!--&times ile carpi ikonu yapiliyor-->
+      <img src="" alt="" id="expandedImage" class="expanded-image" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

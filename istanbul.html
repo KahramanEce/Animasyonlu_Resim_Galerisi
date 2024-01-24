@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Animasyonlu Resim Galerisi</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">PhotoGallery</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="istanbul.html">Istanbul</a></li>
+          <li><a href="izmir.html">Izmir</a></li>
+          <li><a href="adana.html">Adana</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="gallery">
+      <img
+        class="gallery-image"
+        src="https://cdn.pixabay.com/photo/2019/04/09/19/45/galata-4115381_1280.jpg"
+        alt="Resim 1"
+      />
+      <img
+        class="gallery-image"
+        src="https://cdn.pixabay.com/photo/2020/05/21/20/00/istanbul-5202424_1280.jpg"
+        alt="Resim 2"
+      />
+      <img
+        class="gallery-image"
+        src="https://cdn.pixabay.com/photo/2018/03/01/08/21/architecture-3190037_1280.jpg"
+        alt="Resim 3"
+      />
+      <img
+        class="gallery-image"
+        src="https://cdn.pixabay.com/photo/2018/05/11/00/10/tea-3389192_1280.jpg"
+        alt="Resim 4"
+      />
+      <img
+        class="gallery-image"
+        src="https://cdn.pixabay.com/photo/2017/03/11/18/05/seagull-2135533_1280.jpg"
+        alt="Resim 5"
+      />
+      <img
+        class="gallery-image"
+        src="https://cdn.pixabay.com/photo/2020/03/07/11/57/bazaar-4909527_1280.jpg"
+        alt="Resim 6"
+      />
+      <img
+        class="gallery-image"
+        src="https://cdn.pixabay.com/photo/2019/05/11/17/31/lamps-4196132_1280.jpg"
+        alt="Resim 7"
+      />
+      <img
+        class="gallery-image"
+        src="https://cdn.pixabay.com/photo/2021/07/11/13/58/ship-6403827_1280.jpg"
+        alt="Resim 8"
+      />
+      <img
+        class="gallery-image"
+        src="https://cdn.pixabay.com/photo/2015/12/22/14/44/turkey-1104206_1280.jpg"
+        alt="Resim 9"
+      />
+      <img
+        class="gallery-image"
+        src="https://cdn.pixabay.com/photo/2016/01/26/14/52/kucuksu-palace-1162615_1280.jpg"
+        alt="Resim 10"
+      />
+      <img
+        class="gallery-image"
+        src="https://cdn.pixabay.com/photo/2016/07/28/12/19/istanbul-1547735_1280.jpg"
+        alt="Resim 11"
+      />
+      <img
+        class="gallery-image"
+        src="https://cdn.pixabay.com/photo/2019/03/12/18/53/city-4051537_1280.jpg"
+        alt="Resim 12"
+      />
+    </div>
+    <div id="overlay" class="overlay">
+      <span class="close-button" id="closeButton"> &times;</span>
+      <!--&times ile carpi ikonu yapiliyor-->
+      <img src="" alt="" id="expandedImage" class="expanded-image" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
